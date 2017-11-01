@@ -1,0 +1,61 @@
+.table td {
+	padding: unset;
+    border-top: unset;
+}
+
+.breadcrumb {
+	padding: unset;
+	border-radius: unset;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 10px;
+}
+
+.bg-dark {
+	background-color: red !important;
+}
+
+/*
+.table {
+	color: white;
+}
+
+.table tbody tr:nth-child(6n+1) {
+	background: red;
+}
+.table tbody tr:nth-child(6n+2) {
+	background: orange;
+}
+.table tbody tr:nth-child(6n+3) {
+	background: yellow;
+}
+.table tbody tr:nth-child(6n+4) {
+	background: green;
+}
+.table tbody tr:nth-child(6n+5) {
+	background: blue;
+}
+.table tbody tr:nth-child(6n+6) {
+	background: purple;
+}*/
+
+.table tbody tr td:nth-child(1) {
+	text-align: right;
+}
+
+
+@media (min-width:1200px) {
+	.container {
+		max-width: 720px;
+	}
+}
+@media (min-width:992px) {
+	.container {
+		max-width: 720px;
+	}
+}
+@media (min-width:768px) {
+	.container {
+		max-width: 720px;
+	}
+}

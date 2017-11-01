@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>Home</title>
+
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" async>
+	<link href="/static/index.css" rel="stylesheet" async>
+</head>
+<body>
+	<span data-bind="template: 'navbar'"></span>
+
+	<div id="container" class="container" data-bind="template: container" style="margin-top:30px;margin-bottom:20px;padding-left:10px;padding-right:10px;">
+	</div>
+
+	<template id="empty"></template>
+	<template id="home">{% include 'home.html' without context %}</template>
+	<template id="navbar">{% include 'navbar.html' without context %}</template>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/async/2.5.0/async.min.js"></script>
+	<script src="/static/index.js"></script>
+</body>
+</html>

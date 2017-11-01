@@ -1,0 +1,25 @@
+<ol class="breadcrumb">
+    <li class="breadcrumb-item active"><a href="/" data-bind="click: home">Home</a></li>
+</ol>
+<table class="table table-responsive table-hover">
+    <thead style="visibility: hidden">
+        <tr>
+            <td width="10px" style="align:right"></td>
+            <td width="10px"></td>
+            <td></td>
+        </tr>
+    </thead>
+    <tbody data-bind="foreach: song_list">
+        <tr>
+            <td>
+                <span data-bind="text: score">1</span>
+            </td>
+            <td>
+                <span><a data-bind="click: songs.vote"> ^ </a></span>
+            </td>
+            <td>
+                <span data-bind="text: title"><a data-bind="attr: {href: uri}">asdf</a></span>
+            </td>
+        </tr>
+    </tbody>
+</table>
